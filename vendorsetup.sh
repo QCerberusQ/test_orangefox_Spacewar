@@ -26,7 +26,7 @@ export FOX_RECOVERY_VENDOR_PARTITION="/dev/block/mapper/vendor"
 # A/B & Virtual AB
 export FOX_VIRTUAL_AB_DEVICE=1
 export FOX_AB_DEVICE=1
-
+export OF_USE_AIDL_BOOT_CONTROL=1
 
 # -------------------------------------------------------------------
 # Pong’dan alınan faydalı stabilite ayarları
@@ -62,6 +62,8 @@ export TW_DEFAULT_BRIGHTNESS=1200
 export OF_USE_GREEN_LED=0
 export OF_DISABLE_MIUI_SPECIFIC_FEATURES=1
 
+
+
 # -----------------------------------------------------------------------
 # Tools & Features
 export FOX_USE_BASH_SHELL=1
@@ -80,7 +82,10 @@ export FOX_USE_FSCK_EROFS_BINARY=1
 
 export FOX_USE_ZIP_BINARY=1
 export FOX_REPLACE_TOOLBOX_GETPROP=1
-
+export FOX_USE_PATCHELF_BINARY=1
+export FOX_USE_DMSETUP=1
+export FOX_ENABLE_KERNELSU_SUPPORT=1
+export FOX_ALLOW_EARLY_SETTINGS_LOAD=1
 # -----------------------------------------------------------------------
 # Security / Encryption
 export OF_DEFAULT_KEYMASTER_VERSION=4.1
