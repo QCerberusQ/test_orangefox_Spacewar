@@ -39,6 +39,7 @@ OF_ENABLE_LPTOOLS := 1
 OF_ENABLE_ALL_PARTITION_TOOLS := 1
 OF_USE_DMCTL := 1
 OF_DYNAMIC_FULL_SIZE := 6442450944
+OF_USE_AIDL_BOOT_CONTROL := 1
 # -----------------------------------------------------------------------------
 # Data Format & Encryption
 # -----------------------------------------------------------------------------
