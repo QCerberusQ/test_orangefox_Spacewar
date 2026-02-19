@@ -83,7 +83,6 @@ export FOX_USE_FSCK_EROFS_BINARY=1
 export FOX_USE_ZIP_BINARY=1
 export FOX_REPLACE_TOOLBOX_GETPROP=1
 export FOX_USE_PATCHELF_BINARY=1
-export FOX_USE_DMSETUP=1
 export FOX_ENABLE_KERNELSU_SUPPORT=1
 export FOX_ALLOW_EARLY_SETTINGS_LOAD=1
 # -----------------------------------------------------------------------
@@ -95,5 +94,5 @@ export OF_USE_INLINE_CRYPTO=1
 
 # -----------------------------------------------------------------------
 # Magisk / AVB Patch
-export FOX_PATCH_VBMETA_FLAG=1
+#export FOX_PATCH_VBMETA_FLAG=1
 export FOX_USE_UPDATED_MAGISKBOOT=1
