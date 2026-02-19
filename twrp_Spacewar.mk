@@ -11,9 +11,9 @@
 # 1. Base Android Configuration (CRITICAL - ESKİ DOSYADAN ALINDI)
 # -----------------------------------------------------------------------------
 # Bu iki satır olmadan sistem mimariyi tanıyamaz.
-#$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
+
 # -----------------------------------------------------------------------------
 # 2. Device Definitions
 # -----------------------------------------------------------------------------
